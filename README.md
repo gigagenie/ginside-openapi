@@ -11,13 +11,14 @@ GiGA Genie Inside (이하, G-INSIDE)는 3rd party 개발자가 자신들의 제�
 ## G-INSIDE Open API란?
 
 G-INSIDE Open API는 G-Inside의 음성인식, 대화해석, TTS 서비스 및 미디어 서비스를 사용하기 위해 HTTP/1.1 프로토콜 기반 REST API를 제공하는 비 연결형 서비스입니다. 
-기가지니 Cloud AI Platform(G-INSIDE 서버)과의 연동 개발을 위해 G-INSIDE 서버에서 제공하는 API로, HTTP/2 기반의 `gRPC` 와 HTTP/1.1 기반 `WebSocket` 프로토콜을 통해 제공됩니다. 
-
-> G-INSIDE에서는 Open API 이외에도 HTTP/2 기반의 `gRPC` 와 HTTP/1.1 기반 `WebSocket` 프로토콜을 통해 서버와 연결을 맺은 상태에서 서비스를 제공하는 방식 또한 제공합니다. 이에 대한 자세한 내용은 [G-INSIDE API](https://github.com/gigagenie/ginside-api) 를 통해 확인하세요. 
-
-
 
 - [G-INSIDE Open API 연동 규격서 확인하기](https://github.com/gigagenie/ginside-openapi/wiki)
+
+
+> G-INSIDE에서는 Open API 이외에도 HTTP/2 기반의 `gRPC` 와 HTTP/1.1 기반 `WebSocket` 프로토콜을 통해 서버와 연결을 맺은 상태에서 서비스를 제공하는 방식 또한 사용이 가능합니다. 이에 대한 자세한 내용은 [G-INSIDE API](https://github.com/gigagenie/ginside-api) 를 통해 확인하세요. 
+
+
+
 
 
 
